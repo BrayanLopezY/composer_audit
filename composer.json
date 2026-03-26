@@ -1,0 +1,20 @@
+{
+    "name": "lopez/mini-audit",
+    "autoload": {
+        "psr-4": {
+            "Lopez\\MiniAudit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BrayanLopezY",
+            "email": "lopezgomezbrayanbersain@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "6.0",
+        "monolog/monolog": "1.27",
+        "nesbot/carbon": "1.0",
+        "symfony/var-dumper": "3.0"
+    }
+}
